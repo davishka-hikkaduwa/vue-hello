@@ -4,7 +4,7 @@ const app = new Vue({
     el: '#root',
 
     data: {
-        greeting: 'Hello World!',
+        country: '',
         pathImage: 'img/world.jpeg'
     }
 })

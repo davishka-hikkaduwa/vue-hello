@@ -15,8 +15,14 @@
 
 <body>
     <div id="root">
-        <div>
-            <h1> {{ greeting }} </h1>
+        <div class="container">
+            <h1 :class="country"> Hello {{ country }}! </h1>
+            <select v-model="country">
+                <option value="Italy">Italy</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+
+            </select>
 
             <img :src="pathImage" :alt="pathImage">
         </div>
